@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test of table</title>
+
+        <style type="text/css">
+            p {text-align:justify;}
+            li {text-align:justify;}
+            ins {background-color:#A0FFA0;}
+            del {background-color:#FFA0A0;}
+            .code {background-color:#EEEEEE;}
+            .codex {background-color:#FFFFE0;}
+            .custom-table {
+                text-align:left;
+                font-family:monospace;
+            }
+        </style>
+    </head>
+    <body>
+        <table border="1" class="custom-table">
+            <tr>
+                <thead>
+                    <th></th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                    <th>sunday</th>
+                </thead>
+            </tr>
+
+            <tbody>
+                <tr>
+                    <td><strong>Morning</strong</td>
+                    <td>Work</td>
+                    <td>Fitness/run</td>
+                    <td rowspan="2">Free Time</td>
+                </tr>     
+                
+                <tr>
+                    <td><strong>Afternoon</strong></td>
+                    <td rowspan="2">Drive home</td>
+                    <td rowspan="2">Free Time</td>
+                </tr>       
+
+                <tr>
+                    <td><strong>Evening</strong></td>
+                    <td>Drive to work</td>
+                </tr>       
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <th>Tempo of day</th>
+                    <th>Busy</th>
+                    <th>Moderate</th>
+                    <th>Modertae</th>
+                </tr>
+            </tfoot>
+        </table> 
+    </body>
+</html>
