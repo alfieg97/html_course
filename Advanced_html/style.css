@@ -1,7 +1,7 @@
 style.css
 
 body {
-    background-color: red;
+    background-color: royalblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: small;
     font-variant: small-caps;
@@ -9,7 +9,7 @@ body {
 
 h1 {
     background-color: royalblue;
-    color: seashell;
+    color: rgb(252, 251, 249);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: x-large;}
 
