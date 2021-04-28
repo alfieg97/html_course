@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <meta http-equiv="X-UA-compatible" content="ie=edge">
+
+    <title>Form fields</title>
+
+    </head>
+
+    <body>
+    
+        <form method="POST" action="entities.html">
+
+          <div>
+             <label for="First name">First name</label>
+             <input required="required" type="text" id="First name" name="first name" placeholder="First name">
+          </div>
+
+          <div> 
+              <label for="Checkbox_field">Checkbox</label>
+              <input type="checkbox" value="1" name="checkbox"> 
+          </div>
+
+          <div>
+              <label>Radio Buttons</label>
+              <input type="radio" name="radio_test" value="1"> 1
+              <input type="radio" name="radio_test" value="2"> 2
+              <input type="radio" name="radio_test" value="3"> 3
+            </div>
+             
+            <div>
+                <label for="">Date</label>
+                <input required="required" type="date" name="date">
+            </div>
+
+            <div>
+                <label for="Email">Email</label>
+                <input required="required" type="email" name="email" placeholder="Email">
+            </div>
+
+            <div>
+                <label for=hidden>Hidden</label>
+                <input type="hidden" name="hidden">
+            </div>
+
+            <div>
+                <label></label>
+                <input type="number" name="number" step="2" max="50" min="0">
+            </div>
+
+            <div>
+                <label for="password">Password</label>
+                <input required="required" type="password" name="password" placeholder="Ghost text">
+            </div>
+
+            <div>
+                <label for="url">url</label>
+                <input type="url" name="url" value="https://codingforeverybody.com">
+            </div>
+
+            <div>
+                <label for="file upload">file upload</label>
+                <input type="file" name="file">
+            </div>
+
+            <div>
+                <label for="submit">Submit</label>
+                <input type="submit" value="submit"> 
+            </div>
+
+        </form>
+
+     
+
+
+    </body>
+
+</html>
